@@ -1,0 +1,29 @@
+name: Bug Report
+description: Report an issue with the FIRE Planning Calculators app
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: input
+    id: version
+    attributes:
+      label: Version Number
+      description: "You can find the version number in the app under Settings > About."
+      placeholder: "e.g., 1.2.3"
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: "Describe the issue you're experiencing."
+      placeholder: "Tell us what happened..."
+    validations:
+      required: true
+  - type: textarea
+    id: expectation
+    attributes:
+      label: Expectation
+      description: "What did you expect to happen?"
+      placeholder: "Tell us what you expected..."
+    validations:
+      required: true
